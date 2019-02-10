@@ -91,7 +91,7 @@ Material:
     - _Parallax: 0.02
     - _PerspectiveCorrection: 1
     - _RimLightIntensity: 18
-    - _RimLightPulseFreq: 315
+    - _RimLightPulseFreq: 0
     - _ScrollXSpeed: 0
     - _ScrollYSpeed: 2
     - _SmoothnessTextureChannel: 1
