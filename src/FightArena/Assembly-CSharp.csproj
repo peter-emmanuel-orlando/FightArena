@@ -105,6 +105,7 @@
     <Compile Include="Assets\GeneralScripts\Mind.cs" />
     <Compile Include="Assets\GeneralScripts\MyExtensions.cs" />
     <Compile Include="Assets\GeneralScripts\Names.cs" />
+    <Compile Include="Assets\GeneralScripts\PhysicalAttack.cs" />
     <Compile Include="Assets\GeneralScripts\PlayerInput.cs" />
     <Compile Include="Assets\GeneralScripts\ProgressStatus.cs" />
     <Compile Include="Assets\GeneralScripts\RecoilCode.cs" />
@@ -118,6 +119,7 @@
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_Player2Temporary.cs" />
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_TestMasterComponent.cs" />
     <Compile Include="Assets\GeneralScripts\TextDisplay.cs" />
+    <Compile Include="Assets\GeneralScripts\TriggerEventArgs.cs" />
     <Compile Include="Assets\GeneralScripts\UnifiedController.cs" />
     <Compile Include="Assets\GeneralScripts\UNTESTED_ZoneEffect.cs" />
     <Compile Include="Assets\GeneralScripts\WanderPerformable.cs" />
