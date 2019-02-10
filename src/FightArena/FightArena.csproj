@@ -325,6 +325,8 @@
     <Compile Include="Assets\GeneralScripts\GetSnapshotOfGameObject.cs" />
     <Compile Include="Assets\GeneralScripts\GradientValue.cs" />
     <Compile Include="Assets\GeneralScripts\HitBoxType.cs" />
+    <Compile Include="Assets\GeneralScripts\HumanBody.cs" />
+    <Compile Include="Assets\GeneralScripts\HumanMind.cs" />
     <Compile Include="Assets\GeneralScripts\IBodyCanGlow.cs" />
     <Compile Include="Assets\GeneralScripts\IBodyFeature.cs" />
     <Compile Include="Assets\GeneralScripts\IDecisionMaker.cs" />
@@ -339,6 +341,7 @@
     <Compile Include="Assets\GeneralScripts\MyExtensions.cs" />
     <Compile Include="Assets\GeneralScripts\Names.cs" />
     <Compile Include="Assets\GeneralScripts\PlayerInput.cs" />
+    <Compile Include="Assets\GeneralScripts\ProgressStatus.cs" />
     <Compile Include="Assets\GeneralScripts\PunchCombo.cs" />
     <Compile Include="Assets\GeneralScripts\PunchStats.cs" />
     <Compile Include="Assets\GeneralScripts\RecoilCode.cs" />
