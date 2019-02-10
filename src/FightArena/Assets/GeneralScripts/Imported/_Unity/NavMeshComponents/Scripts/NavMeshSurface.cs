@@ -241,11 +241,11 @@ namespace UnityEngine.AI
             var sources = new List<NavMeshBuildSource>();
             var markups = new List<NavMeshBuildMarkup>();
 
-            List<NavMeshModifier> modifiers;
+            List<INavMeshModifier> modifiers;
             if (m_CollectObjects == CollectObjects.Children)
             {
-                modifiers = new List<NavMeshModifier>(GetComponentsInChildren<NavMeshModifier>());
-                modifiers.RemoveAll(x => !x.isActiveAndEnabled);
+                modifiers = new List<INavMeshModifier>(GetComponentsInChildren<INavMeshModifier>());
+                modifiers.RemoveAll(x => !x.monoBehaviour.isActiveAndEnabled);
             }
             else
             {

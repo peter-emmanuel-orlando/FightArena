@@ -67,6 +67,7 @@
     <Compile Include="Assets\Editor\NavMesh\NavMeshModifierEditor.cs" />
     <Compile Include="Assets\Editor\NavMesh\NavMeshModifierVolumeEditor.cs" />
     <Compile Include="Assets\Editor\NavMesh\NavMeshSurfaceEditor.cs" />
+    <Compile Include="Assets\Editor\NavMesh\NavMeshSurfaceOtherEditor.cs" />
     <Compile Include="Assets\Editor\ShowOnlyDrawer.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />

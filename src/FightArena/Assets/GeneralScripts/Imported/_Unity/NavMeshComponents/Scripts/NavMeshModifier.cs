@@ -5,7 +5,7 @@ namespace UnityEngine.AI
     [ExecuteInEditMode]
     [AddComponentMenu("Navigation/NavMeshModifier", 32)]
     [HelpURL("https://github.com/Unity-Technologies/NavMeshComponents#documentation-draft")]
-    public class NavMeshModifier : MonoBehaviour
+    public class NavMeshModifier : MonoBehaviour, INavMeshModifier
     {
         [SerializeField]
         bool m_OverrideArea;
@@ -24,11 +24,16 @@ namespace UnityEngine.AI
         [SerializeField]
         List<int> m_AffectedAgents = new List<int>(new int[] { -1 });    // Default value is All
 
-        static readonly List<NavMeshModifier> s_NavMeshModifiers = new List<NavMeshModifier>();
+        static readonly List<INavMeshModifier> s_NavMeshModifiers = new List<INavMeshModifier>();
 
-        public static List<NavMeshModifier> activeModifiers
+        public static List<INavMeshModifier> activeModifiers
         {
             get { return s_NavMeshModifiers; }
+        }
+
+        public MonoBehaviour monoBehaviour
+        {
+            get { return this; }
         }
 
         void OnEnable()

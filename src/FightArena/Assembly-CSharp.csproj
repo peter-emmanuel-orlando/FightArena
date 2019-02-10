@@ -91,6 +91,7 @@
     <Compile Include="Assets\GeneralScripts\ComboPlaceMarker.cs" />
     <Compile Include="Assets\GeneralScripts\DashPunch.cs" />
     <Compile Include="Assets\GeneralScripts\DebugShape.cs" />
+    <Compile Include="Assets\GeneralScripts\DefineSpace.cs" />
     <Compile Include="Assets\GeneralScripts\Dodge.cs" />
     <Compile Include="Assets\GeneralScripts\EmpowerChangeEventArgs.cs" />
     <Compile Include="Assets\GeneralScripts\EmptyMind.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Assets\GeneralScripts\FairieFireMind.cs" />
     <Compile Include="Assets\GeneralScripts\FightPerformable.cs" />
     <Compile Include="Assets\GeneralScripts\FightPerformableDecisionMaker.cs" />
+    <Compile Include="Assets\GeneralScripts\FillHouseWithItems.cs" />
     <Compile Include="Assets\GeneralScripts\Gender.cs" />
     <Compile Include="Assets\GeneralScripts\GenericBody.cs" />
     <Compile Include="Assets\GeneralScripts\GetSnapshotOfGameObject.cs" />
@@ -113,6 +115,7 @@
     <Compile Include="Assets\GeneralScripts\IDecisionMaker.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Scripts\PostProcessing_Sobel.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\Demo\ROTATE.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\INavMeshModifier.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshLink.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshModifier.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
@@ -169,10 +172,12 @@
     <Compile Include="Assets\GeneralScripts\MusicPlayer.cs" />
     <Compile Include="Assets\GeneralScripts\MyExtensions.cs" />
     <Compile Include="Assets\GeneralScripts\Names.cs" />
+    <Compile Include="Assets\GeneralScripts\NavMeshSurfaceOther.cs" />
     <Compile Include="Assets\GeneralScripts\PhysicalAttack.cs" />
     <Compile Include="Assets\GeneralScripts\PlayerInput.cs" />
     <Compile Include="Assets\GeneralScripts\PowerUpEffect.cs" />
     <Compile Include="Assets\GeneralScripts\ProgressStatus.cs" />
+    <Compile Include="Assets\GeneralScripts\Projectile.cs" />
     <Compile Include="Assets\GeneralScripts\ProjectileAttack.cs" />
     <Compile Include="Assets\GeneralScripts\Punch.cs" />
     <Compile Include="Assets\GeneralScripts\RecoilCode.cs" />
@@ -189,6 +194,7 @@
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_TestMasterComponent.cs" />
     <Compile Include="Assets\GeneralScripts\TESTSCRIPT_NavMeshVisualized.cs" />
     <Compile Include="Assets\GeneralScripts\TextDisplay.cs" />
+    <Compile Include="Assets\GeneralScripts\TrackedGameObject.cs" />
     <Compile Include="Assets\GeneralScripts\TriggerEventArgs.cs" />
     <Compile Include="Assets\GeneralScripts\UnifiedController.cs" />
     <Compile Include="Assets\GeneralScripts\UNTESTED_IKControl.cs" />
@@ -196,6 +202,7 @@
     <Compile Include="Assets\GeneralScripts\UpdateEvent.cs" />
     <Compile Include="Assets\GeneralScripts\WanderPerformable.cs" />
     <Compile Include="Assets\GeneralScripts\WARNING_UNTESTED_SkinnedMeshCombiner.cs" />
+    <Compile Include="Assets\Sun.cs" />
     <Compile Include="Assets\World\Spawnables\Creatures\Humanoid\Human_F\_Dependancies\HumanFemaleBody.cs" />
     <Compile Include="Assets\World\Spawnables\Creatures\Humanoid\Human_F\_Dependancies\HumanFemaleMind.cs" />
     <Compile Include="Assets\World\Spawnables\Creatures\Humanoid\Human_M\_Dependencies\HumanMaleBody.cs" />
