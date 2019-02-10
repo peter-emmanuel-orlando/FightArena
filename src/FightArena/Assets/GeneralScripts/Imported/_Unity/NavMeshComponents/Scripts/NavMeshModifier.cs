@@ -13,7 +13,7 @@ namespace UnityEngine.AI
 
         [SerializeField]
         int m_Area;
-        public int area { get { return m_Area; } set { m_Area = value; } }
+        public int modifiedArea { get { return m_Area; } set { m_Area = value; } }
 
         [SerializeField]
         bool m_IgnoreFromBuild;

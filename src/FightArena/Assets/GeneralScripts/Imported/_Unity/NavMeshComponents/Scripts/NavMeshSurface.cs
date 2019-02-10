@@ -261,7 +261,7 @@ namespace UnityEngine.AI
                 var markup = new NavMeshBuildMarkup();
                 markup.root = m.transform;
                 markup.overrideArea = m.overrideArea;
-                markup.area = m.area;
+                markup.area = m.modifiedArea;
                 markup.ignoreFromBuild = m.ignoreFromBuild;
                 markups.Add(markup);
             }
