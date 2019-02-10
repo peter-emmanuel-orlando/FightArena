@@ -76,6 +76,7 @@
     <Compile Include="Assets\GeneralScripts\AgentLinkMover.cs" />
     <Compile Include="Assets\GeneralScripts\AnimatedAbility.cs" />
     <Compile Include="Assets\GeneralScripts\AnimatedLight.cs" />
+    <Compile Include="Assets\GeneralScripts\ArbitraryGravity.cs" />
     <Compile Include="Assets\GeneralScripts\AttackCombo.cs" />
     <Compile Include="Assets\GeneralScripts\AttackInfo.cs" />
     <Compile Include="Assets\GeneralScripts\AudioSpeaker.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="Assets\GeneralScripts\GetSnapshotOfGameObject.cs" />
     <Compile Include="Assets\GeneralScripts\GoAirborn.cs" />
     <Compile Include="Assets\GeneralScripts\GradientValue.cs" />
+    <Compile Include="Assets\GeneralScripts\GravityPoint.cs" />
     <Compile Include="Assets\GeneralScripts\HitBoxType.cs" />
     <Compile Include="Assets\GeneralScripts\HumanBody.cs" />
     <Compile Include="Assets\GeneralScripts\HumanMind.cs" />
