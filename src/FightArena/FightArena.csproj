@@ -308,7 +308,6 @@
     <Compile Include="Assets\GeneralScripts\Ability.cs" />
     <Compile Include="Assets\GeneralScripts\AddCollidersToCreature.cs" />
     <Compile Include="Assets\GeneralScripts\AnimationEventMessages.cs" />
-    <Compile Include="Assets\GeneralScripts\AttackPerformableDecisionMaker.cs" />
     <Compile Include="Assets\GeneralScripts\AxisCode.cs" />
     <Compile Include="Assets\GeneralScripts\Body.cs" />
     <Compile Include="Assets\GeneralScripts\ButtonCode.cs" />
@@ -319,6 +318,7 @@
     <Compile Include="Assets\GeneralScripts\FairieFireBody.cs" />
     <Compile Include="Assets\GeneralScripts\FairieFireMind.cs" />
     <Compile Include="Assets\GeneralScripts\FightPerformable.cs" />
+    <Compile Include="Assets\GeneralScripts\FightPerformableDecisionMaker.cs" />
     <Compile Include="Assets\GeneralScripts\Gender.cs" />
     <Compile Include="Assets\GeneralScripts\GenericBody.cs" />
     <Compile Include="Assets\GeneralScripts\GetSnapshotOfGameObject.cs" />
@@ -358,6 +358,9 @@
     <Compile Include="Assets\World\Entities\Creatures\Humanoid\Human_M\_Dependencies\HumanMaleMind.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\GeneralScripts\Shaders\EdgeGlow.shader" />
+    <None Include="Assets\GeneralScripts\Shaders\Nagel.shader" />
+    <None Include="Assets\GeneralScripts\Shaders\StandardUnlitShader.shader" />
     <None Include="C:\Users\YumeMuraLaptop\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="C:\Users\YumeMuraLaptop\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="C:\Users\YumeMuraLaptop\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\Alert.uxml" />

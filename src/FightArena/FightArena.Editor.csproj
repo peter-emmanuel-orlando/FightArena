@@ -366,6 +366,9 @@
     <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\GeneralScripts\Shaders\EdgeGlow.shader" />
+    <None Include="Assets\GeneralScripts\Shaders\Nagel.shader" />
+    <None Include="Assets\GeneralScripts\Shaders\StandardUnlitShader.shader" />
     <None Include="C:\Users\YumeMuraLaptop\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="C:\Users\YumeMuraLaptop\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="C:\Users\YumeMuraLaptop\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\Alert.uxml" />
