@@ -312,6 +312,7 @@
     <Compile Include="Assets\GeneralScripts\Body.cs" />
     <Compile Include="Assets\GeneralScripts\ButtonCode.cs" />
     <Compile Include="Assets\GeneralScripts\ChangeGlowColor.cs" />
+    <Compile Include="Assets\GeneralScripts\ChasePerformable.cs" />
     <Compile Include="Assets\GeneralScripts\ComboPlaceMarker.cs" />
     <Compile Include="Assets\GeneralScripts\EmptyMind.cs" />
     <Compile Include="Assets\GeneralScripts\EmptyPerformable.cs" />
@@ -346,6 +347,7 @@
     <Compile Include="Assets\GeneralScripts\Spawnable.cs" />
     <Compile Include="Assets\GeneralScripts\SubscribeDelegates.cs" />
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_FairieFire.cs" />
+    <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_PerformablesTester.cs" />
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_Player2Temporary.cs" />
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_TestMasterComponent.cs" />
     <Compile Include="Assets\GeneralScripts\TextDisplay.cs" />
