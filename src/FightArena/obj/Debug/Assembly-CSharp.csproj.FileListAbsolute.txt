@@ -334,5 +334,3 @@ C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.LocalizationModule.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.ProfilerModule.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.StreamingModule.xml
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.UI.dll
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.UI.xml
