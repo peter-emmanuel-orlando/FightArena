@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AnimatedLight.cs" />
     <Compile Include="Assets\GeneralScripts\_AnimationPool.cs" />
     <Compile Include="Assets\GeneralScripts\_Master.cs" />
     <Compile Include="Assets\GeneralScripts\_MasterComponent.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\GeneralScripts\AudioSpeaker.cs" />
     <Compile Include="Assets\GeneralScripts\AxisCode.cs" />
     <Compile Include="Assets\GeneralScripts\AzuriteDart.cs" />
+    <Compile Include="Assets\GeneralScripts\Block.cs" />
     <Compile Include="Assets\GeneralScripts\BloodNovaBeam.cs" />
     <Compile Include="Assets\GeneralScripts\Body.cs" />
     <Compile Include="Assets\GeneralScripts\ButtonCode.cs" />
@@ -87,6 +89,7 @@
     <Compile Include="Assets\GeneralScripts\ComboPlaceMarker.cs" />
     <Compile Include="Assets\GeneralScripts\DashPunch.cs" />
     <Compile Include="Assets\GeneralScripts\DebugShape.cs" />
+    <Compile Include="Assets\GeneralScripts\Dodge.cs" />
     <Compile Include="Assets\GeneralScripts\EmpowerChangeEventArgs.cs" />
     <Compile Include="Assets\GeneralScripts\EmptyMind.cs" />
     <Compile Include="Assets\GeneralScripts\EmptyPerformable.cs" />
@@ -98,6 +101,7 @@
     <Compile Include="Assets\GeneralScripts\Gender.cs" />
     <Compile Include="Assets\GeneralScripts\GenericBody.cs" />
     <Compile Include="Assets\GeneralScripts\GetSnapshotOfGameObject.cs" />
+    <Compile Include="Assets\GeneralScripts\GoAirborn.cs" />
     <Compile Include="Assets\GeneralScripts\GradientValue.cs" />
     <Compile Include="Assets\GeneralScripts\HitBoxType.cs" />
     <Compile Include="Assets\GeneralScripts\HumanBody.cs" />
@@ -159,7 +163,6 @@
     <Compile Include="Assets\GeneralScripts\Intel.cs" />
     <Compile Include="Assets\GeneralScripts\IPerformable.cs" />
     <Compile Include="Assets\GeneralScripts\ISpawnable.cs" />
-    <Compile Include="Assets\GeneralScripts\Jump.cs" />
     <Compile Include="Assets\GeneralScripts\Mind.cs" />
     <Compile Include="Assets\GeneralScripts\MusicPlayer.cs" />
     <Compile Include="Assets\GeneralScripts\MyExtensions.cs" />
