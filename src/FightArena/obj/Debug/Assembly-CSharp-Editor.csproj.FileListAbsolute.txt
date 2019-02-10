@@ -401,5 +401,4 @@ C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.pdb
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp.pdb
