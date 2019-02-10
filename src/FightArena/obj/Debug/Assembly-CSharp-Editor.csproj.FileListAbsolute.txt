@@ -200,6 +200,8 @@ C:\Users\YumeMurasaki\Documents\UnityProjects\FightArenaVersionHistory\FightAren
 C:\Users\YumeMurasaki\Documents\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 C:\Users\YumeMurasaki\Documents\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\YumeMurasaki\Documents\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp-Editor.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Boo.Lang.dll
@@ -317,7 +319,6 @@ C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Boo.Lang.Useful.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Unity.CecilTools.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Unity.Cecil.Pdb.dll
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.AIModule.xml
@@ -397,8 +398,7 @@ C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.VR.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp.pdb

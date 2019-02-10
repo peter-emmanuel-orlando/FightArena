@@ -166,6 +166,7 @@ C:\Users\YumeMurasaki\Documents\UnityProjects\FightArenaVersionHistory\FightAren
 C:\Users\YumeMurasaki\Documents\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\YumeMurasaki\Documents\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.dll
 C:\Users\YumeMurasaki\Documents\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.pdb
+C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Boo.Lang.dll
@@ -329,8 +330,7 @@ C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.pdb
+C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
