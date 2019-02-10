@@ -76,9 +76,11 @@
     <Compile Include="Assets\GeneralScripts\Body.cs" />
     <Compile Include="Assets\GeneralScripts\ButtonCode.cs" />
     <Compile Include="Assets\GeneralScripts\ChangeGlowColor.cs" />
+    <Compile Include="Assets\GeneralScripts\CharacterAbilities.cs" />
     <Compile Include="Assets\GeneralScripts\ChasePerformable.cs" />
     <Compile Include="Assets\GeneralScripts\ComboPlaceMarker.cs" />
-    <Compile Include="Assets\GeneralScripts\ComittedAnimation.cs" />
+    <Compile Include="Assets\GeneralScripts\DashPunch.cs" />
+    <Compile Include="Assets\GeneralScripts\EmpowerChangeEventArgs.cs" />
     <Compile Include="Assets\GeneralScripts\EmptyMind.cs" />
     <Compile Include="Assets\GeneralScripts\EmptyPerformable.cs" />
     <Compile Include="Assets\GeneralScripts\FairieFireBody.cs" />
@@ -107,9 +109,11 @@
     <Compile Include="Assets\GeneralScripts\Names.cs" />
     <Compile Include="Assets\GeneralScripts\PhysicalAttack.cs" />
     <Compile Include="Assets\GeneralScripts\PlayerInput.cs" />
+    <Compile Include="Assets\GeneralScripts\PowerUpEffect.cs" />
     <Compile Include="Assets\GeneralScripts\ProgressStatus.cs" />
     <Compile Include="Assets\GeneralScripts\RecoilCode.cs" />
     <Compile Include="Assets\GeneralScripts\RestrictedPerformable.cs" />
+    <Compile Include="Assets\GeneralScripts\ScheduledAction.cs" />
     <Compile Include="Assets\GeneralScripts\SchedulededMessageAnimation.cs" />
     <Compile Include="Assets\GeneralScripts\ShowOnlyAttribute.cs" />
     <Compile Include="Assets\GeneralScripts\Spawnable.cs" />
