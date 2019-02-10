@@ -305,8 +305,10 @@
     <Compile Include="Assets\GeneralScripts\_MasterComponent.cs" />
     <Compile Include="Assets\GeneralScripts\_PlayerControl.cs" />
     <Compile Include="Assets\GeneralScripts\_PrefabPool.cs" />
+    <Compile Include="Assets\GeneralScripts\_WanderDecisionMaker.cs" />
     <Compile Include="Assets\GeneralScripts\Ability.cs" />
     <Compile Include="Assets\GeneralScripts\AddCollidersToCreature.cs" />
+    <Compile Include="Assets\GeneralScripts\AddStuffToLand.cs" />
     <Compile Include="Assets\GeneralScripts\AnimationEventMessages.cs" />
     <Compile Include="Assets\GeneralScripts\AxisCode.cs" />
     <Compile Include="Assets\GeneralScripts\Body.cs" />
@@ -330,10 +332,10 @@
     <Compile Include="Assets\GeneralScripts\IBodyCanGlow.cs" />
     <Compile Include="Assets\GeneralScripts\IBodyFeature.cs" />
     <Compile Include="Assets\GeneralScripts\IDecisionMaker.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Scripts\NavMeshLink.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Scripts\NavMeshModifier.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Scripts\NavMeshSurface.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshLink.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshModifier.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshSurface.cs" />
     <Compile Include="Assets\GeneralScripts\Intel.cs" />
     <Compile Include="Assets\GeneralScripts\IPerformable.cs" />
     <Compile Include="Assets\GeneralScripts\ISpawnable.cs" />
@@ -355,6 +357,7 @@
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_TestMasterComponent.cs" />
     <Compile Include="Assets\GeneralScripts\TextDisplay.cs" />
     <Compile Include="Assets\GeneralScripts\UnifiedController.cs" />
+    <Compile Include="Assets\GeneralScripts\UNTESTED_ZoneEffect.cs" />
     <Compile Include="Assets\GeneralScripts\WanderPerformable.cs" />
     <Compile Include="Assets\GeneralScripts\WARNING_UNTESTED_SkinnedMeshCombiner.cs" />
     <Compile Include="Assets\World\Entities\Creatures\Humanoid\Human_F\_Dependancies\HumanFemaleBody.cs" />
@@ -363,7 +366,13 @@
     <Compile Include="Assets\World\Entities\Creatures\Humanoid\Human_M\_Dependencies\HumanMaleMind.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\GeneralScripts\Imported\Minimalist Free\ReadMe.txt" />
+    <None Include="Assets\GeneralScripts\Imported\Minimalist Free\Shader\Minimalist Standard lwrp.shader" />
+    <None Include="Assets\GeneralScripts\Imported\Minimalist Free\Shader\Minimalist Standard.shader" />
+    <None Include="Assets\GeneralScripts\Imported\Minimalist Free\Shader\Sky.shader" />
+    <None Include="Assets\GeneralScripts\Shaders\CustomGradient.shader" />
     <None Include="Assets\GeneralScripts\Shaders\EdgeGlow.shader" />
+    <None Include="Assets\GeneralScripts\Shaders\Gradient.shader" />
     <None Include="Assets\GeneralScripts\Shaders\Nagel.shader" />
     <None Include="Assets\GeneralScripts\Shaders\StandardUnlitShader.shader" />
     <None Include="C:\Users\YumeMuraLaptop\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />

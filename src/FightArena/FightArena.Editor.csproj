@@ -359,14 +359,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\ShowOnlyDrawer.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\Minimalist Free\Editor\MinimalistStandardMatV2Free.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\Minimalist Free\Editor\SkyMatV2Free.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\GeneralScripts\Imported\Minimalist Free\ReadMe.txt" />
+    <None Include="Assets\GeneralScripts\Imported\Minimalist Free\Shader\Minimalist Standard lwrp.shader" />
+    <None Include="Assets\GeneralScripts\Imported\Minimalist Free\Shader\Minimalist Standard.shader" />
+    <None Include="Assets\GeneralScripts\Imported\Minimalist Free\Shader\Sky.shader" />
+    <None Include="Assets\GeneralScripts\Shaders\CustomGradient.shader" />
     <None Include="Assets\GeneralScripts\Shaders\EdgeGlow.shader" />
+    <None Include="Assets\GeneralScripts\Shaders\Gradient.shader" />
     <None Include="Assets\GeneralScripts\Shaders\Nagel.shader" />
     <None Include="Assets\GeneralScripts\Shaders\StandardUnlitShader.shader" />
     <None Include="C:\Users\YumeMuraLaptop\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />

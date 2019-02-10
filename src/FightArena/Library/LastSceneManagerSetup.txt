@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/World/testScene.unity
+- path: Assets/World/Scenes/BeautifulLand.unity
   isLoaded: 1
   isActive: 1
