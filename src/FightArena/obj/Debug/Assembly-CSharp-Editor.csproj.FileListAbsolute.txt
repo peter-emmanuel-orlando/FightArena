@@ -394,7 +394,6 @@ C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Unity.TextMeshPro.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.ProfilerModule.dll

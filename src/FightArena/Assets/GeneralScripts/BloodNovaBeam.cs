@@ -5,11 +5,11 @@ using UnityEngine;
 public class BloodNovaBeam : Projectile
 { 
     private ProjectileStats projectileStats = new ProjectileStats("BloodNovaBeam");
-    protected AnimationClip recoilAnimation = _AnimationPool.GetAnimation("KnockBack_Heavy");
+    protected AnimationClip recoilAnimation;
     private GradientValue beamSize = new GradientValue(0, 30);
     private float currentTime = 0;
     private const float timeForFullLength = 0.5f;
-    private float damage = 3f;
+    private float damage = 30f;
 
     protected override event ColliderEventHandler OnHitEvent;
 
@@ -18,6 +18,12 @@ public class BloodNovaBeam : Projectile
     protected override void OnEnable()
     {
 
+    }
+
+    protected override void Awake()
+    {
+        base.Awake();
+        recoilAnimation = _AnimationPool.GetAnimation("KnockBack_Heavy");
     }
 
     private void Update()
@@ -36,7 +42,7 @@ public class BloodNovaBeam : Projectile
 
     protected override void ApplyEffectsEveryFrame(Body hitBody)
     {
-        var v = hitBody;
+
     }
 
     protected override void ApplyEffectsOnce(Body hitBody)
