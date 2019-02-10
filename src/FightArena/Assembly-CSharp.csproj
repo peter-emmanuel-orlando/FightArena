@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
     <Compile Include="Assets\AnimatedSpotLight.cs" />
     <Compile Include="Assets\GeneralScripts\_AnimationPool.cs" />
     <Compile Include="Assets\GeneralScripts\_Master.cs" />
@@ -209,8 +210,11 @@
     <None Include="Assets\GeneralScripts\Shaders\EdgeGlow.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\HDRUnlit.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\ACES.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
@@ -224,15 +228,25 @@
     <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Blit.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMeta.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\FXAA3.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForward.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitIO.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardIO.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassV.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
     <None Include="Assets\GeneralScripts\Shaders\CustomGradient.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShadingIncludes.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\GeneralScripts\Shaders\Nagel.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
@@ -250,17 +264,22 @@
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\Post\PostFunctions.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Cutout Wireframe.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Wireframe.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Cutout Wireframe.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
     <None Include="Assets\GeneralScripts\Shaders\Gradient.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\GeneralScripts\Shaders\StandardUnlitShader.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
+    <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/YumeMurasaki/Documents/Portfolio/UnityProjects/FightArenaVersionHistory/FightArena/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
