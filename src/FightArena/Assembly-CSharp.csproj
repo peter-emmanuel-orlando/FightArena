@@ -69,6 +69,7 @@
     <Compile Include="Assets\GeneralScripts\_WanderDecisionMaker.cs" />
     <Compile Include="Assets\GeneralScripts\Ability.cs" />
     <Compile Include="Assets\GeneralScripts\AddCollidersToCreature.cs" />
+    <Compile Include="Assets\GeneralScripts\AddComponentsToModels.cs" />
     <Compile Include="Assets\GeneralScripts\AddStuffToLand.cs" />
     <Compile Include="Assets\GeneralScripts\AnimatedAbility.cs" />
     <Compile Include="Assets\GeneralScripts\AttackCombo.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\GeneralScripts\CollissionTracker.cs" />
     <Compile Include="Assets\GeneralScripts\ComboPlaceMarker.cs" />
     <Compile Include="Assets\GeneralScripts\DashPunch.cs" />
+    <Compile Include="Assets\GeneralScripts\DebugShape.cs" />
     <Compile Include="Assets\GeneralScripts\EmpowerChangeEventArgs.cs" />
     <Compile Include="Assets\GeneralScripts\EmptyMind.cs" />
     <Compile Include="Assets\GeneralScripts\EmptyPerformable.cs" />
@@ -157,6 +159,7 @@
     <Compile Include="Assets\GeneralScripts\Intel.cs" />
     <Compile Include="Assets\GeneralScripts\IPerformable.cs" />
     <Compile Include="Assets\GeneralScripts\ISpawnable.cs" />
+    <Compile Include="Assets\GeneralScripts\Jump.cs" />
     <Compile Include="Assets\GeneralScripts\Mind.cs" />
     <Compile Include="Assets\GeneralScripts\MusicPlayer.cs" />
     <Compile Include="Assets\GeneralScripts\MyExtensions.cs" />
@@ -179,6 +182,7 @@
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_PerformablesTester.cs" />
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_Player2Temporary.cs" />
     <Compile Include="Assets\GeneralScripts\Test Scripts\TESTSCRIPT_TestMasterComponent.cs" />
+    <Compile Include="Assets\GeneralScripts\TESTSCRIPT_NavMeshVisualized.cs" />
     <Compile Include="Assets\GeneralScripts\TextDisplay.cs" />
     <Compile Include="Assets\GeneralScripts\TriggerEventArgs.cs" />
     <Compile Include="Assets\GeneralScripts\UnifiedController.cs" />
@@ -210,6 +214,7 @@
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\Post\SobelOutline.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShadingTerrain.shader" />
+    <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe Functions.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Blit.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
@@ -217,6 +222,7 @@
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\FXAA3.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\MotionBlur.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe.shader" />
     <None Include="Assets\GeneralScripts\Shaders\CustomGradient.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
@@ -238,7 +244,10 @@
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\Post\PostFunctions.cginc" />
+    <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Cutout Wireframe.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Wireframe.shader" />
+    <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Cutout Wireframe.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
     <None Include="Assets\GeneralScripts\Shaders\Gradient.shader" />

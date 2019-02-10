@@ -11,7 +11,7 @@ namespace UnityEngine.PostProcessing
 #endif
     [RequireComponent(typeof(Camera)), DisallowMultipleComponent, ExecuteInEditMode]
     [AddComponentMenu("Effects/Post-Processing Behaviour", -1)]
-    public class PostProcessingBehaviour : MonoBehaviour
+    public class PostProcessingBehaviour : MonoBehaviour//, ISpawnable
     {
         // Inspector fields
         public PostProcessingProfile profile;
@@ -48,6 +48,8 @@ namespace UnityEngine.PostProcessing
         VignetteComponent m_Vignette;
         DitheringComponent m_Dithering;
         FxaaComponent m_Fxaa;
+
+        //public string PrefabName { get { return gameObject.name; } }
 
         void OnEnable()
         {
