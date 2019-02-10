@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightArena", "Assembly-CSharp.csproj", "{F77CD281-1399-FEA5-4C30-D5F15A1CB04D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{F77CD281-1399-FEA5-4C30-D5F15A1CB04D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightArena", "Assembly-CSharp-Editor.csproj", "{BF7CABBA-8ACC-B6CA-7143-E54F915EC845}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{BF7CABBA-8ACC-B6CA-7143-E54F915EC845}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

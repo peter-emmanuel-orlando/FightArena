@@ -330,9 +330,9 @@ C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.xml
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.pdb
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.UI.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.UI.xml
+C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache

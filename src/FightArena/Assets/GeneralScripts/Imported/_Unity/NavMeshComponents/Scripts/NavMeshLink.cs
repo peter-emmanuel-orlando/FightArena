@@ -111,14 +111,16 @@ namespace UnityEngine.AI
             }
 #endif
 
-            var link = new NavMeshLinkData();
-            link.startPosition = m_StartPoint;
-            link.endPosition = m_EndPoint;
-            link.width = m_Width;
-            link.costModifier = m_CostModifier;
-            link.bidirectional = m_Bidirectional;
-            link.area = m_Area;
-            link.agentTypeID = m_AgentTypeID;
+            var link = new NavMeshLinkData
+            {
+                startPosition = m_StartPoint,
+                endPosition = m_EndPoint,
+                width = m_Width,
+                costModifier = m_CostModifier,
+                bidirectional = m_Bidirectional,
+                area = m_Area,
+                agentTypeID = m_AgentTypeID
+            };
             m_LinkInstance = NavMesh.AddLink(link, transform.position, transform.rotation);
             if (m_LinkInstance.valid)
                 m_LinkInstance.owner = this;

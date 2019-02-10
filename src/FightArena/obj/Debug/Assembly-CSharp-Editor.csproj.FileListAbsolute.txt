@@ -318,7 +318,6 @@ C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Boo.Lang.Useful.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Unity.CecilTools.dll
-C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.xml
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEngine.AIModule.xml
@@ -402,3 +401,5 @@ C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
+C:\Users\YumeMurasaki\Documents\Portfolio\UnityProjects\FightArenaVersionHistory\FightArena\Temp\bin\Debug\Assembly-CSharp.pdb
