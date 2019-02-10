@@ -61,7 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AnimatedLight.cs" />
+    <Compile Include="Assets\AnimatedSpotLight.cs" />
     <Compile Include="Assets\GeneralScripts\_AnimationPool.cs" />
     <Compile Include="Assets\GeneralScripts\_Master.cs" />
     <Compile Include="Assets\GeneralScripts\_MasterComponent.cs" />
@@ -73,6 +73,7 @@
     <Compile Include="Assets\GeneralScripts\AddComponentsToModels.cs" />
     <Compile Include="Assets\GeneralScripts\AddStuffToLand.cs" />
     <Compile Include="Assets\GeneralScripts\AnimatedAbility.cs" />
+    <Compile Include="Assets\GeneralScripts\AnimatedLight.cs" />
     <Compile Include="Assets\GeneralScripts\AttackCombo.cs" />
     <Compile Include="Assets\GeneralScripts\AttackInfo.cs" />
     <Compile Include="Assets\GeneralScripts\AudioSpeaker.cs" />
@@ -189,6 +190,7 @@
     <Compile Include="Assets\GeneralScripts\TextDisplay.cs" />
     <Compile Include="Assets\GeneralScripts\TriggerEventArgs.cs" />
     <Compile Include="Assets\GeneralScripts\UnifiedController.cs" />
+    <Compile Include="Assets\GeneralScripts\UNTESTED_IKControl.cs" />
     <Compile Include="Assets\GeneralScripts\UNTESTED_ZoneEffect.cs" />
     <Compile Include="Assets\GeneralScripts\UpdateEvent.cs" />
     <Compile Include="Assets\GeneralScripts\WanderPerformable.cs" />
@@ -206,6 +208,7 @@
     <None Include="Assets\GeneralScripts\Imported\Minimalist Free\Shader\Minimalist Standard.shader" />
     <None Include="Assets\GeneralScripts\Shaders\EdgeGlow.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\HDRUnlit.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
