@@ -73,6 +73,7 @@
     <Compile Include="Assets\GeneralScripts\AddCollidersToCreature.cs" />
     <Compile Include="Assets\GeneralScripts\AddComponentsToModels.cs" />
     <Compile Include="Assets\GeneralScripts\AddStuffToLand.cs" />
+    <Compile Include="Assets\GeneralScripts\AgentLinkMover.cs" />
     <Compile Include="Assets\GeneralScripts\AnimatedAbility.cs" />
     <Compile Include="Assets\GeneralScripts\AnimatedLight.cs" />
     <Compile Include="Assets\GeneralScripts\AttackCombo.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\GeneralScripts\ChangeGlowColor.cs" />
     <Compile Include="Assets\GeneralScripts\CharacterAbilities.cs" />
     <Compile Include="Assets\GeneralScripts\ChasePerformable.cs" />
+    <Compile Include="Assets\GeneralScripts\ClickToMove.cs" />
     <Compile Include="Assets\GeneralScripts\CollissionTracker.cs" />
     <Compile Include="Assets\GeneralScripts\ComboPlaceMarker.cs" />
     <Compile Include="Assets\GeneralScripts\DashPunch.cs" />
@@ -102,6 +104,7 @@
     <Compile Include="Assets\GeneralScripts\FightPerformable.cs" />
     <Compile Include="Assets\GeneralScripts\FightPerformableDecisionMaker.cs" />
     <Compile Include="Assets\GeneralScripts\FillHouseWithItems.cs" />
+    <Compile Include="Assets\GeneralScripts\FreeCam.cs" />
     <Compile Include="Assets\GeneralScripts\Gender.cs" />
     <Compile Include="Assets\GeneralScripts\GenericBody.cs" />
     <Compile Include="Assets\GeneralScripts\GetSnapshotOfGameObject.cs" />
@@ -113,9 +116,6 @@
     <Compile Include="Assets\GeneralScripts\IBodyCanGlow.cs" />
     <Compile Include="Assets\GeneralScripts\IBodyFeature.cs" />
     <Compile Include="Assets\GeneralScripts\IDecisionMaker.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Scripts\PostProcessing_Sobel.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\Demo\ROTATE.cs" />
-    <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\INavMeshModifier.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshLink.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshModifier.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
@@ -165,6 +165,9 @@
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\NastyWizard_CelSobel\CelShadingSobel\Scripts\PostProcessing_Sobel.cs" />
+    <Compile Include="Assets\GeneralScripts\Imported\NastyWizard_CelSobel\Demo\ROTATE.cs" />
+    <Compile Include="Assets\GeneralScripts\INavMeshModifier.cs" />
     <Compile Include="Assets\GeneralScripts\Intel.cs" />
     <Compile Include="Assets\GeneralScripts\IPerformable.cs" />
     <Compile Include="Assets\GeneralScripts\ISpawnable.cs" />
@@ -172,6 +175,7 @@
     <Compile Include="Assets\GeneralScripts\MusicPlayer.cs" />
     <Compile Include="Assets\GeneralScripts\MyExtensions.cs" />
     <Compile Include="Assets\GeneralScripts\Names.cs" />
+    <Compile Include="Assets\GeneralScripts\NavMeshPrefabInstance.cs" />
     <Compile Include="Assets\GeneralScripts\NavMeshSurfaceOther.cs" />
     <Compile Include="Assets\GeneralScripts\PhysicalAttack.cs" />
     <Compile Include="Assets\GeneralScripts\PlayerInput.cs" />
@@ -229,10 +233,10 @@
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\GeneralScripts\Imported\Minimalist Free\Shader\Minimalist Standard lwrp.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Uber.shader" />
-    <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\Post\SobelOutline.shader" />
-    <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShadingTerrain.shader" />
+    <None Include="Assets\GeneralScripts\Imported\NastyWizard_CelSobel\CelShadingSobel\Shaders\Post\SobelOutline.shader" />
+    <None Include="Assets\GeneralScripts\Imported\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShadingTerrain.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe Functions.cginc" />
-    <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />
+    <None Include="Assets\GeneralScripts\Imported\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Blit.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
@@ -252,7 +256,7 @@
     <None Include="Assets\GeneralScripts\Shaders\CustomGradient.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-    <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShadingIncludes.cginc" />
+    <None Include="Assets\GeneralScripts\Imported\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShadingIncludes.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\GeneralScripts\Shaders\Nagel.shader" />
@@ -265,12 +269,12 @@
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\GrainGen.shader" />
-    <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading - Transparent.shader" />
+    <None Include="Assets\GeneralScripts\Imported\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading - Transparent.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
-    <None Include="Assets\GeneralScripts\Imported\_Unity\NastyWizard_CelSobel\CelShadingSobel\Shaders\Post\PostFunctions.cginc" />
+    <None Include="Assets\GeneralScripts\Imported\NastyWizard_CelSobel\CelShadingSobel\Shaders\Post\PostFunctions.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Cutout Wireframe.shader" />
     <None Include="Assets\GeneralScripts\Imported\_Unity\PostProcessing\Resources\Shaders\Bloom.shader" />

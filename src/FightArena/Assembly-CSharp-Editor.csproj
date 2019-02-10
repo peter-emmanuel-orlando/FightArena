@@ -66,6 +66,7 @@
     <Compile Include="Assets\Editor\NavMesh\NavMeshLinkEditor.cs" />
     <Compile Include="Assets\Editor\NavMesh\NavMeshModifierEditor.cs" />
     <Compile Include="Assets\Editor\NavMesh\NavMeshModifierVolumeEditor.cs" />
+    <Compile Include="Assets\Editor\NavMesh\NavMeshPrefabInstanceEditor.cs" />
     <Compile Include="Assets\Editor\NavMesh\NavMeshSurfaceEditor.cs" />
     <Compile Include="Assets\Editor\NavMesh\NavMeshSurfaceOtherEditor.cs" />
     <Compile Include="Assets\Editor\ShowOnlyDrawer.cs" />
