@@ -358,6 +358,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\ShowOnlyDrawer.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
     <Compile Include="Assets\GeneralScripts\Imported\Unity\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
